@@ -1,15 +1,15 @@
-# 👋 Welcome to Pipeline Training 2026
+# Pipeline Training 2026
 
 This organization hosts the sample repositories for a **CloudBees CI / Jenkins Pipeline-as-Code training workshop**. The content walks through building a governed, reusable pipeline platform — starting from a plain Jenkinsfile and ending with application teams onboarding via a one-line marker file.
 
-## 🎯 What This Training Covers
+## What This Training Covers
 
 - **Shared Libraries** — centralizing pipeline logic (build, versioning, JFrog/Jira integration) into reusable global steps instead of copy-pasted Groovy.
 - **Pipeline Templates** — packaging opinionated, parameterized pipelines on top of a Shared Library so application teams don't write Jenkinsfiles from scratch.
 - **Pipeline Template Catalogs & Marker Files** — letting an application repo select and configure a template declaratively (`ci-config.yaml`), so platform teams keep governance and lifecycle control while developers self-serve.
 - **Pipeline mechanics** — Scripted vs. Declarative syntax, Kubernetes agents, parallel execution, checkpoints/restart, and cross-team pipeline events.
 
-## 📦 Repositories
+## Repositories
 
 | Repository | Purpose |
 | --- | --- |
@@ -18,7 +18,7 @@ This organization hosts the sample repositories for a **CloudBees CI / Jenkins P
 | [`sample-app-helloWorld`](https://github.com/pipeline-training-ws/sample-app-helloWorld) | A minimal "application" repo showing what a team actually commits: a `Jenkinsfile` that loads the Shared Library, and a `ci-config.yaml` marker file supplying its own parameters. |
 | [`pipeline-samples`](https://github.com/pipeline-training-ws/pipeline-samples) | Focused, standalone pipeline recipes: checkpoints/restart-from-stage, cross-team `publishEvent`/`eventTrigger`, parallel Kubernetes agent patterns, and JFrog/Jira integration walkthroughs. Also includes the Scripted-vs-Declarative comparison and recommendation guide. |
 
-## 🧩 High-Level Templating Approach
+## High-Level Templating Approach
 
 The training's core idea: application repos stay tiny (a marker file + a one-line Jenkinsfile), while all real pipeline logic and governance live centrally in the Shared Library and Template Catalog.
 
@@ -52,7 +52,7 @@ flowchart LR
 
 ---
 
-## 📚 Documentation & Videos
+## Documentation & Videos
 
 ### Pipeline Best Practices
 
