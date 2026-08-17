@@ -80,7 +80,6 @@ flowchart LR
 ### Marker Files
 
 - 📘 [Marker Files](https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipelines/pipeline-as-code#custom-pac-scripts)
-- 🧠 [Using Marker Files for Governance](https://www.cloudbees.com/blog/ensuring-corporate-standards-pipelines-custom-marker-files)
 
 ### GitHub App Authentication
 
