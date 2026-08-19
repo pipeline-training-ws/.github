@@ -118,6 +118,10 @@ flowchart LR
 - 🧠 [Scripted vs. Declarative - Blog](https://e.printstacktrace.blog/jenkins-scripted-pipeline-vs-declarative-pipeline-the-4-practical-differences/)
 - 🎥 [Pipeline Templates with Shared Libraries](https://www.jenkins.io/blog/2017/10/02/pipeline-templates-with-shared-libraries/)
 
+### Pipeline Explorer Plugin
+
+- 📘 [CloudBees Pipeline Explorer Plugin](https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipelines/cloudbees-pipeline-explorer-plugin)
+
 ### Multibranch Pipelines
 
 - 🎥 [How to Create a GitHub Multibranch Pipeline – YouTube](https://www.youtube.com/watch?v=ZWwmh4gqia4)
